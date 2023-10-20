@@ -194,6 +194,10 @@ footer {
   background-color: rgba(218,165,32,0.5)
 }
 
+.footerimgfloat{
+  float: right;
+}
+
 .menu-icon {
   color: white;
   float: right;
