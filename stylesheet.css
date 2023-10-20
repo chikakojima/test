@@ -188,7 +188,7 @@ footer p {
 }
 
 footer {
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 10px;
   text-align: center;
   background-color: rgba(218,165,32,0.5)
@@ -196,6 +196,7 @@ footer {
 
 .footerimgfloat{
   float: right;
+  text-align: center;
 }
 
 .menu-icon {
