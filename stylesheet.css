@@ -120,19 +120,10 @@ header {
   text-align: center;
 }
 
-a.overwhite{
-    background-color:#ffffff;
-    display:block;
-}
-
-a.overwhite:hover img{
-    cursor:pointer;
-    filter: alpha(opacity=60);        /* ie lt 8 */
-    -ms-filter: "alpha(opacity=60)";  /* ie 8 */
-    -moz-opacity:0.6;                 /* FF lt 1.5, Netscape */
-    -khtml-opacity: 0.6;              /* Safari 1.x */
-    opacity:0.6;
-    zoom:1;
+a:hover img.hoverwhite{
+opacity:0.5;
+filter:alpha(opacity=50);
+-ms-filter: “alpha( opacity=50 )”;
 }
 
 .heading {
