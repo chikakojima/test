@@ -207,7 +207,7 @@ figure.side_image {
 p.side_text {
   display: inline-block;
   width: 300px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .menu-icon {
