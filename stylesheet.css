@@ -207,8 +207,8 @@ figure.side_image {
 p.side_text {
   display: inline-block;
   width: 300px;
-  vertical-align: middle;
-  padding-bottom: 10px;
+  vertical-align: top;
+  padding-top: 10px;
 }
 
 .menu-icon {
