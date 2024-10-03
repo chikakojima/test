@@ -1,92 +1,146 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>テストサイトです◎｜テスト</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="hm-yoko-logo-white.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div id="top-wrapper"></div>
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2 id="lesson">Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <a href="#"><img src="https://prog-8.com/images/html/advanced/html.png" class="hoverwhite" /></a>
-            <p>HTML & CSS</p>
+<html lamg="ja">
+    <head>
+     <meta chareset="utf-8">
+        <title>Profile</title>
+        <meta name="desription" content="タカキカナエデザイン">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--css-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/favicon.png"
+
+
+    </head>
+
+    <body>
+        <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="images/logo.png" alt="KANAE DESIGN" ></a> </h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="works.html">Works</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+        </header>
+
+         <!-- mainVisual -->
+         <div class="mainvisual">
+                <div class="main-bt"><img src="images/main_bt.png" alt=""></div>
+		</div><!-- mainVisual -->
+
+
+        <!-- works -->
+        <section id="works" class="works wrapper">
+            <h2 class="ttl">Works</h2>
+        
+            <div class="grid-container">
+                <div class="items">
+                    <a href="#LP"></a>
+                        <img src="images/work5.png" width="350px" alt="">
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="#Ba1"></a>
+                       <img src="images/work4.png" width="350px" alt="">
+                    </a>
+                </div>
+                <div class="items"> 
+                    <a href="#Ba2"></a>
+                     <img src="images/work3.png" width="350px" alt="">
+                    </a>     
+                </div>
+                     
+                <div class="items"> 
+                    <a href="#HP1"></a>
+                     <img src="images/work2.png" width="350px" alt="">
+                    </a>
+                    </div>
+                <div class="items"> 
+                    <a href="#LP2"></a>
+                      <img src="images/work1.png" width="350px" alt="">
+                    </a>
+                </div>
+            </div><!-- /.grid-container -->
+        </section>
+
+       <!-- Service Section -->
+        <section id="services" class="services wrapper">
+         <h2 class="ttl">Service・Skill</h2>
+          <p class="text00">
+           ディレクションからデザインまで、WEBサイト制作をメインに</br>
+           名刺やイベント等のフライヤー制作などデザインにかかわる様々なお仕事を承っております。
+          </p>
+
+          <div class="menu-container">
+             <div class="menu">
+                  <h3 class="ttl">ディレクション</h3>
+                  <p class="ttl">DIRECTION</p>
+                  <p class="icon"><img src="images/icon1.png" alt="direction"></p>
+                  <p class="text01">ご要望をヒアリングして、現状の問題点から効果的なプランを作成します。</p>
+             </div>
+             
+             <div class="menu">
+                  <h3 class="ttl">デザイン</h3>
+                  <p class="ttl">DESIGN</p>
+                  <p class="icon"><img src="images/icon2.png" alt="direction"></p>
+                  <p class="text01">お客様の想いやイメージを具現化して伝わりやすいデザインを制作します。</p>
+             </div>
           </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <a href="#"><img src="https://prog-8.com/images/html/advanced/jQuery.png" class="hoverwhite" /></a>
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <a href="#"><img src="https://prog-8.com/images/html/advanced/ruby.png" class="hoverwhite" /></a>
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <a href="#"><img src="https://prog-8.com/images/html/advanced/php.png" class="hoverwhite" /></a>
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <a href="#top-wrapper"><figure class="side_image">
-        <img src="hm-yoko-logo-white.png"></figure></a>
-      <p class="side_text">Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-</body>
-</html>
+
+         <p class="text02">
+            対応可能なソフト : Illustrator / Photoshop/ Wordpress / figma / Vectorworks
+         </p>
+
+        </section>
+
+          <!-- footer -->
+          <footer>
+            <div class="wrapper">
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="works.html">Works</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <section class="profile">
+
+                <img class="pl-icon" src="images/profile02.png" alt="KANAE DESIGN" ></a>
+
+                <div class="last">
+                 <p class="name">ウェブデザイナー　　高木 かなえ</h1>
+                 <p class="text">
+                    商空間のデザイナー（設計者）として約10年間、カフェ・美容室・大型商業施設など様々な分野のお店づくりに携わった経験を活かして、店舗のブランドイメージをしっかりと伝えるデザインを提供します
+                    ​またママデザイナーとして、女性らしい目線でのご提案を得意としております。
+                </p>
+                </div><!-- last -->
+
+            </section>
+                <p><small>&copy;2024 TAKAKI KANAE DESIGN</small></p>
+            </div>
+        </footer>
+
+
+
+
+	
+			
+
+
+
+
+
+    </body>
+
+    </html>
